@@ -1,6 +1,6 @@
 # sentinel_1_isce3_rtc
 
-Notebook for creating Radiometrically Terrain Corrected (RTC) backscatter data for Sentinel-1 using the ISCE3 software. All inputs are downloaded in the notebook
+Notebook for creating Radiometrically Terrain Corrected (RTC) backscatter data for Sentinel-1 using the ISCE3 software. All inputs are downloaded in the notebook.
 
 # Instructions
 
@@ -21,7 +21,9 @@ rm  -rf  ~/miniconda3/miniconda.sh
 
 2. **Create the conda envrionment**
 
-```conda env create -f environment.yml```
+```sh
+conda env create -f environment.yml
+```
 
 3. **Activate the environment and install isce3-rtc project with the setup.sh file**
 

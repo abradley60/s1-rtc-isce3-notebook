@@ -17,7 +17,7 @@ rm s1_reader_src.tar.gz
 conda run -n isce3_rtc python -m pip install "$S1"
 
 # installing OPERA RTC
-RTC=RTC
+RTC=./RTC
 
 if [ -d "$RTC" ]; then
     rm -rf "$RTC"

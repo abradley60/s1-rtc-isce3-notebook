@@ -233,8 +233,6 @@ dependencies:
       - pytz==2024.1
       - regex==2024.5.15
       - requests==2.32.2
-      - rtc==1.0.3
-      - s1reader==0.1.6
       - s3transfer==0.10.1
       - sentineleof==0.9.5
       - soupsieve==2.5

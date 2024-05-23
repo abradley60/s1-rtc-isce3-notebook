@@ -2,6 +2,8 @@
 
 Notebook for creating Radiometrically Terrain Corrected (RTC) backscatter data for Sentinel-1 using the ISCE3 software. All inputs are downloaded in the notebook.
 
+Based on - https://github.com/ASFOpenSARlab/opensarlab-notebooks/blob/master/SAR_Training/English/Master/ISCE3_Sentinel1_RTC.ipynb
+
 # Instructions
 
 1. **Install miniconda (if a suitable conda envrionment not already installed)**

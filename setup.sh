@@ -23,11 +23,11 @@ if [ -d "$RTC" ]; then
     rm -rf "$RTC"
 fi
 
-curl -sSL https://github.com/opera-adt/RTC/archive/refs/tags/v1.0.2.zip -o RTC.tar.gz
-tar -zxvf RTC.tar.gz
+curl -sSL https://github.com/opera-adt/RTC/archive/refs/tags/v1.0.2.tar.gz -o RTC.tar.gz
+tar -xvxf RTC.tar.gz
 
-if ! [ -d "$S1" ]; then
-    ln -s RTC-1.0.2 "$S1"
+if ! [ -d "$RTC" ]; then
+    ln -s RTC-1.0.2 "$RTC"
 fi
 
 rm RTC.tar.gz

@@ -164,5 +164,6 @@ data/*
 credentials/credentials_earthdata.yaml
 credentials/credentials_copernicus.yaml
 RTC
+RTC*
 s1-reader
 s1-reader*

@@ -27,9 +27,17 @@ rm  -rf  ~/miniconda3/miniconda.sh
 conda env create -f environment.yml
 ```
 
+or if envrionment is already created
+
+```sh
+conda activate isce3_rtc
+```
+
+
 3. **Activate the environment and install isce3-rtc project with the setup.sh file**
 
 ```sh
+cd s1-rtc-isce3-notebook
 conda activate isce3_rtc
 sh setup.sh
 ```

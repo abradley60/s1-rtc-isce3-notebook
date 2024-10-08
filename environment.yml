@@ -216,6 +216,7 @@ dependencies:
       - contourpy==1.2.1
       - cycler==0.12.1
       - dateparser==1.2.0
+      - dem_stitcher==2.5.8
       - exceptiongroup==1.2.1
       - fonttools==4.51.0
       - idna==3.7
